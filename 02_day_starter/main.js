@@ -1,5 +1,5 @@
 // this is your main.js script
-
+//Data-Types
 
 let challenge = "30 days of Javascript";
 console.log(challenge);
@@ -60,39 +60,6 @@ console.log(gl);
 
 let rg = Math.floor(gl);
 console.log(rg);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 let jake ='He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.';
 
