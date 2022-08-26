@@ -256,8 +256,111 @@ var countries1 = [
 
 
 
-for ( i = 0; i < countries1.length; i++){
-  if (countries1[i].indexOf("land") != -1){
-    console.log([countries1[i]])
+// for ( i = 0; i < countries1.length; i++){
+//   if (countries1[i].indexOf("land") != -1){
+//     console.log([countries1[i]])
+//   }
+// }
+// for ( i = 0; i < countries1.length; i++){
+//   if (countries1[i].indexOf("ia") != -1){
+//     console.log([countries1[i]])
+//   }
+// // }
+// for ( i = 0; i < countries1.length; i++){
+//   if (countries1[i].length == 5){
+//     console.log([countries1[i]])
+//   }
+// }
+
+
+// var longest = countries1.sort(function(a,b){return b.length - a.length})[0];
+// console.log(longest)
+
+
+// const webTechs = [
+//   "HTML",
+//   "CSS",
+//   "JavaScript",
+//   "React",
+//   "Redux",
+//   "Node",
+//   "MongoDB",
+// ];
+
+
+// var longest2 = webTechs.sort(function(a,b){return b.length - a.length})[0];
+// console.log(longest2)
+
+// const mernStack = ["MongoDB", "Express", "React", "Node"];
+
+
+// webTechL=webTechs.map(function(v){
+//    return v.length;
+//    })
+
+// console.log([webTechs,webTechL])
+
+// fruit = ['banana', 'orange', 'mango', 'lemon'];
+
+// for (let t = fruit.length; t >= 0; t--){
+//   console.log(fruit)
+// }
+
+
+
+// //Level 3
+
+var countries2 = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+  "Iceland",
+];
+
+// const sortCountries2 = countries2.sort()
+// console.log(sortCountries2)
+
+
+for(i = 0 ; i < countries2.length ; i++){
+  if(countries2[i].indexOf("land") != -1){
+    console.log([countries2[i]])
   }
 }
+
+// for ( i = 0; i < countries1.length; i++){
+//      if (countries1[i].indexOf("land") != -1){
+//       console.log([countries1[i]])
+//      }
+//     }
+
+for(j = 0; j < countries2.length; j++){
+  if(countries2[j].length >= 2){
+    console.log([countries2[j]])
+  }
+}
+
+
+
+// for ( i = 0; i < countries2.length; i++){
+//      if (countries2[i].length == 5){
+//       console.log([countries2[i]])
+//      }
+//    }
+  
+
+
+countries2.reverse()
+console.log(countries2)
+count=countries2.map(function(x){
+return x.toUpperCase();
+})
+
+console.log(count)

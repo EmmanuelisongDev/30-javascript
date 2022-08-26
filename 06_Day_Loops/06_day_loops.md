@@ -192,10 +192,6 @@ const webTechs = [
   "MongoDB",
 ];
 
-for (const tech of webTechs) {
-  console.log(tech.toUpperCase());
-}
-
 // HTML CSS JAVASCRIPT REACT NODE MONGODB
 
 for (const tech of webTechs) {
